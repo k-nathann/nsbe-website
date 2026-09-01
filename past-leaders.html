@@ -36,9 +36,13 @@
         .leader-card { height: 520px; max-width: 350px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,.1); overflow: hidden; transition: transform .3s ease, box-shadow .3s ease; text-align: center; display: flex; flex-direction: column; }
         .leader-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,.15); }
         .leader-image { width: 100%; height: 300px; flex-shrink: 0; background: #222; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+        .leader-image img { width: 100%; height: 100%; object-fit: cover; }
         .leader-info { padding: 2rem; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; }
         .leader-name { font-size: 1.5rem; color: #222; margin-bottom: .5rem; }
         .leader-position { font-size: 1.1rem; color: #666; font-weight: 600; }
+        .leader-links { display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem; }
+        .leader-link { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #222; color: #fff; border-radius: 50%; transition: all .3s ease; }
+        .leader-link:hover { color: #fff; background: #00458c; transform: scale(1.1); }
         .site-footer { background: #222; color: #999; padding: 2em 0; text-align: center; }
         .social-link { display: inline-flex; align-items: center; gap: .5rem; color: #fff; padding: .5rem 1rem; border: 1px solid rgba(255,255,255,.3); border-radius: 4px; margin-top: 1.5rem; }
         .social-link:hover { color: #fff; background: rgba(255,255,255,.1); }
@@ -98,16 +102,60 @@
                 <h2 class="section-title">Previous Leadership</h2>
                 <div class="leaders-container">
                     <article class="leader-card">
-                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
-                        <div class="leader-info"><h3 class="leader-name">Asia Falkner</h3><p class="leader-position">President</p></div>
+                        <div class="leader-image"><img src="images/Samuel Headshot NSBE.jpeg" alt="Samuel Osei Asamoah"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Samuel Osei Asamoah</h3><p class="leader-position">President</p>
+                            <div class="leader-links"><a href="mailto:soa4@calvin.edu" class="leader-link" title="Email Samuel Osei Asamoah"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/sonyasamoah/" class="leader-link" title="Samuel Osei Asamoah on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
                     </article>
                     <article class="leader-card">
-                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
-                        <div class="leader-info"><h3 class="leader-name">Kelechi Nwaozuzu</h3><p class="leader-position">Vice President</p></div>
+                        <div class="leader-image"><img src="images/kofi headshot.jpeg" alt="Kofi Nyarko"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Kofi Nyarko</h3><p class="leader-position">Vice President</p>
+                            <div class="leader-links"><a href="mailto:kbn3@calvin.edu" class="leader-link" title="Email Kofi Nyarko"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/kofibaahnyarko/" class="leader-link" title="Kofi Nyarko on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
                     </article>
                     <article class="leader-card">
-                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
-                        <div class="leader-info"><h3 class="leader-name">Christian Escarment</h3><p class="leader-position">Parliamentarian</p></div>
+                        <div class="leader-image"><img src="images/ruham headshot.jpeg" alt="Ruhama Getahun"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Ruhama Getahun</h3><p class="leader-position">Secretary</p>
+                            <div class="leader-links"><a href="mailto:rmg32@calvin.edu" class="leader-link" title="Email Ruhama Getahun"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/ruhama-getahun-ba85142a6/" class="leader-link" title="Ruhama Getahun on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><img src="images/Kevin Headshot.jpeg" alt="Kevin Ofori-Kwafo"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Kevin Ofori-Kwafo</h3><p class="leader-position">Treasurer</p>
+                            <div class="leader-links"><a href="mailto:kno4@calvin.edu" class="leader-link" title="Email Kevin Ofori-Kwafo"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/kevin-ofori-kwafo/" class="leader-link" title="Kevin Ofori-Kwafo on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><img src="images/ama headshot.jpeg" alt="Ama Yeboah"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Ama Yeboah</h3><p class="leader-position">Senator</p>
+                            <div class="leader-links"><a href="mailto:apy2@calvin.edu" class="leader-link" title="Email Ama Yeboah"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/yeboah-ama/" class="leader-link" title="Ama Yeboah on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><img src="images/fraol headshot.jpeg" alt="Fraol Maru"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Fraol Maru</h3><p class="leader-position">Senator</p>
+                            <div class="leader-links"><a href="mailto:fam5@calvin.edu" class="leader-link" title="Email Fraol Maru"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/fraol-maru-59a57b2a7/" class="leader-link" title="Fraol Maru on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><img src="images/Debra Headshot.jpeg" alt="Debra Anumnu"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Debra Anumnu</h3><p class="leader-position">Director of Digital Media and Communications</p>
+                            <div class="leader-links"><a href="mailto:dna5@calvin.edu" class="leader-link" title="Email Debra Anumnu"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/debraanumnu/" class="leader-link" title="Debra Anumnu on LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
+                        </div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><img src="images/Journi Headshot.png" alt="Journi Easter"></div>
+                        <div class="leader-info">
+                            <h3 class="leader-name">Journi Easter</h3><p class="leader-position">First-Year Representative</p>
+                            <div class="leader-links"><a href="mailto:je43@calvin.edu" class="leader-link" title="Email Journi Easter"><i class="fas fa-envelope"></i></a></div>
+                        </div>
                     </article>
                 </div>
             </div>
