@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Leadership - NSBE Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif; font-size: 17px; line-height: 1.7; color: #333; background: #fff; overflow-x: hidden; }
+        a { color: #222; text-decoration: none; transition: color .2s ease, background-color .2s ease; }
+        a:hover { color: #d54e21; }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.1); position: relative; z-index: 100; }
+        .header-inner { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 1.5rem 20px; max-width: 100%; }
+        .logo-container { display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; }
+        .logo-container img { height: 100px; margin-right: 25px; }
+        .site-title { font-size: 2.5rem; line-height: 1.2; font-weight: 700; }
+        .site-description { margin-top: 5px; font-size: 1.4rem; color: #666; }
+        .main-navigation { background: #222; width: 100%; }
+        .main-navigation ul { display: flex; justify-content: center; list-style: none; }
+        .main-navigation li { flex: 1; text-align: center; }
+        .main-navigation a { color: #fff; display: block; padding: 1em 1.5em; font-weight: 500; }
+        .main-navigation a:hover { background: #333; }
+        .leadership-hero { min-height: 600px; height: 85vh; background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)), url('images/past leaders group shot.jpeg') center/cover; display: flex; align-items: center; justify-content: center; text-align: center; }
+        .hero-content { max-width: 800px; padding: 2em; color: #fff; }
+        .hero-title { font-size: 3.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,.5); }
+        .hero-description { font-size: 1.1rem; background: rgba(51,51,51,.85); padding: 2rem; border-radius: 10px; backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,.2); }
+        .page-actions { padding: 3em 0 0; text-align: center; }
+        .back-link { display: inline-block; padding: .85em 1.5em; border: 2px solid #00458c; border-radius: 6px; color: #00458c; font-weight: 700; }
+        .back-link:hover, .back-link:focus { color: #fff; background: #00458c; }
+        .leadership-grid { padding: 4em 0 5em; }
+        .section-title { font-size: 2.5rem; color: #222; text-align: center; }
+        .leaders-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 350px)); justify-content: center; gap: 3rem; margin-top: 3rem; }
+        .leader-card { height: 520px; max-width: 350px; background: #fff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,.1); overflow: hidden; transition: transform .3s ease, box-shadow .3s ease; text-align: center; display: flex; flex-direction: column; }
+        .leader-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,.15); }
+        .leader-image { width: 100%; height: 300px; flex-shrink: 0; background: #222; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+        .leader-info { padding: 2rem; flex-grow: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+        .leader-name { font-size: 1.5rem; color: #222; margin-bottom: .5rem; }
+        .leader-position { font-size: 1.1rem; color: #666; font-weight: 600; }
+        .site-footer { background: #222; color: #999; padding: 2em 0; text-align: center; }
+        .social-link { display: inline-flex; align-items: center; gap: .5rem; color: #fff; padding: .5rem 1rem; border: 1px solid rgba(255,255,255,.3); border-radius: 4px; margin-top: 1.5rem; }
+        .social-link:hover { color: #fff; background: rgba(255,255,255,.1); }
+        @media (max-width: 768px) {
+            .logo-container { flex-direction: column; }
+            .logo-container img { margin: 0 0 1rem; }
+            .site-title { font-size: 1.8rem; }
+            .main-navigation ul { flex-direction: column; }
+            .main-navigation a { padding: .8em; }
+            .hero-title { font-size: 2.5rem; }
+            .leaders-container { grid-template-columns: 1fr; justify-items: center; gap: 2rem; }
+            .leader-card { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner container">
+            <div class="logo-container">
+                <img src="images/Calvin_logo.jpg" alt="Calvin University Logo">
+                <div>
+                    <h1 class="site-title"><a href="index.html">Calvin University's Society Of Black Engineers</a></h1>
+                    <p class="site-description">National Society of Black Engineers</p>
+                </div>
+            </div>
+            <nav class="main-navigation" aria-label="Main navigation">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Membership.html">Membership</a></li>
+                        <li><a href="leaders.html">Leaders</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="leadership-hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Past Executive Board</h2>
+                <div class="hero-description">
+                    <p>We celebrate the former student leaders whose service helped advance NSBE's mission at Calvin University and strengthen our chapter community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-actions" aria-label="Leadership navigation">
+            <div class="container">
+                <a class="back-link" href="leaders.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> View Current Leadership</a>
+            </div>
+        </section>
+
+        <section class="leadership-grid">
+            <div class="container">
+                <h2 class="section-title">Previous Leadership</h2>
+                <div class="leaders-container">
+                    <article class="leader-card">
+                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
+                        <div class="leader-info"><h3 class="leader-name">Asia Falkner</h3><p class="leader-position">President</p></div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
+                        <div class="leader-info"><h3 class="leader-name">Kelechi Nwaozuzu</h3><p class="leader-position">Vice President</p></div>
+                    </article>
+                    <article class="leader-card">
+                        <div class="leader-image"><i class="fas fa-user" aria-hidden="true"></i></div>
+                        <div class="leader-info"><h3 class="leader-name">Christian Escarment</h3><p class="leader-position">Parliamentarian</p></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 NSBE Chapter. All rights reserved.</p>
+            <p>Part of the National Society of Black Engineers</p>
+            <a href="https://www.instagram.com/nsbe_calvin/" class="social-link" title="Follow us on Instagram"><i class="fab fa-instagram"></i><span>Follow us on Instagram</span></a>
+        </div>
+    </footer>
+</body>
+</html>

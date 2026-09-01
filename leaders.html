@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leadership - NSBE Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -185,6 +185,27 @@
             background-color: #fff;
         }
 
+        .leadership-archive {
+            padding: 3em 0 0;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .archive-link {
+            display: inline-block;
+            padding: 0.85em 1.5em;
+            border: 2px solid #00458c;
+            border-radius: 6px;
+            color: #00458c;
+            font-weight: 700;
+        }
+
+        .archive-link:hover,
+        .archive-link:focus {
+            color: #fff;
+            background-color: #00458c;
+        }
+
         .leaders-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -361,6 +382,13 @@
                     the Greater Grand Rapids community, creating a supportive environment for Black engineers to thrive.
                 </p>
             </div>
+        </div>
+    </section>
+
+
+    <section class="leadership-archive" aria-label="Past leadership">
+        <div class="container">
+            <a class="archive-link" href="past-leaders.html">View Past Leadership</a>
         </div>
     </section>
 
